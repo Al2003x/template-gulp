@@ -1,0 +1,54 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: ;
+  font-family: ;
+  font-style: normal;
+  font-weight: normal;
+  font-size: ;
+  line-height: ;
+  text-align: center;
+  color: ;
+  min-height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: 0;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.btn {
+  border: 1px solid transparent;
+  vertical-align: middle;
+}
+
+.body-scroll {
+  overflow: hidden;
+}
